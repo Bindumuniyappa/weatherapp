@@ -34,7 +34,7 @@ function App() {
           </div>
           <div className='description'>
             {data.weather ? <p>{data.weather[0].main}</p>:null}
-            <p>Clouds</p>
+            {/* <p>Clouds</p> */}
           </div>
         </div>
 
